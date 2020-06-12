@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+	<testplan>
+		<name><![CDATA[Kiểm tra tổng quan trang web]]></name>
+		
+	<testproject>		<name><![CDATA[18K1.Nhom03.Demo]]></name>		<prefix><![CDATA[ID]]></prefix>		<internal_id><![CDATA[2]]></internal_id>
+	</testproject>
+		
+	<build>		<name><![CDATA[Buid 1]]></name>		<internal_id><![CDATA[1]]></internal_id>
+	</build>
+		<testsuites>
+	<testsuite name="Func01-Home" >
+		<node_order><![CDATA[1]]></node_order>
+		<details><![CDATA[<p>Ki&ecirc;̉m tra giao di&ecirc;̣n và chức năng của trang chủ</p>
+]]>
+		</details>
+<testcase internalid="11" name="Kiểm tra các đường dẫn của article xem khi click vào có đến đúng trang details không">
+	<node_order><![CDATA[1000]]></node_order>
+	<exec_order><![CDATA[1000]]></exec_order>
+	<externalid><![CDATA[1]]></externalid>
+	<fullexternalid><![CDATA[]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>1.Click vào Usability và chuy&ecirc;̉n đ&ecirc;́n trang Usability</p>
+]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click vào Usability</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>CHuy&ecirc;̉n đ&ecirc;́n trang Usability</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="14" name="Kiểm tra khi click vào &quot;NodeJs&quot;">
+	<node_order><![CDATA[1001]]></node_order>
+	<exec_order><![CDATA[1000]]></exec_order>
+	<externalid><![CDATA[2]]></externalid>
+	<fullexternalid><![CDATA[]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Ki&ecirc;̉m tra khi click vào &quot;NodeJs&quot; ở góc trái màn hình xem có quay lại trang chủ home hay kh&ocirc;ng</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Click vào nodejs</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>quay trở lại trang chủ</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
+	<testsuite name="Func02-Detail" >
+		<node_order><![CDATA[2]]></node_order>
+		<details><![CDATA[<p>Ki&ecirc;̉m tra các chức năng ở trang chi ti&ecirc;́t</p>
+]]>
+		</details>
+<testcase internalid="26" name="Kiểm tra xem mô tả chi tiết có đúng với tiêu đề của article hay không">
+	<node_order><![CDATA[1000]]></node_order>
+	<exec_order><![CDATA[10000]]></exec_order>
+	<externalid><![CDATA[6]]></externalid>
+	<fullexternalid><![CDATA[]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Kiểm tra xem m&ocirc; tả chi tiết c&oacute; đ&uacute;ng với ti&ecirc;u đề của article hay kh&ocirc;ng&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>click vào Usability</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>m&ocirc; tả chi ti&ecirc;́t đúng với ti&ecirc;u đ&ecirc;̀ của Usability</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
+	<testsuite name="Func03-Add Comment" >
+		<node_order><![CDATA[3]]></node_order>
+		<details><![CDATA[<p>ki&ecirc;̉m tra chức năng th&ecirc;m comment</p>
+]]>
+		</details>
+<testcase internalid="20" name="thêm comment khi chưa đăng nhập">
+	<node_order><![CDATA[1000]]></node_order>
+	<exec_order><![CDATA[10000]]></exec_order>
+	<externalid><![CDATA[4]]></externalid>
+	<fullexternalid><![CDATA[]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>th&ecirc;m comment khi chưa đăng nh&acirc;̣p vào wed</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>comment &quot;alo alo ola&quot;</li>
+	<li>click <strong>Post</strong></li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>kh&ocirc;ng comment được , bắt đăng nh&acirc;̣p vào wed mới cho comment</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
+	<testsuite name="Func04-Del comment" >
+		<node_order><![CDATA[4]]></node_order>
+		<details><![CDATA[<p>Ki&ecirc;̉m tra chức năng xóa comment</p>
+]]>
+		</details>
+<testcase internalid="23" name="Xóa comment khi chưa đăng nhập">
+	<node_order><![CDATA[1000]]></node_order>
+	<exec_order><![CDATA[10000]]></exec_order>
+	<externalid><![CDATA[5]]></externalid>
+	<fullexternalid><![CDATA[]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Xóa comment khi chưa đăng nh&acirc;̣p</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Click vào X đ&ecirc;̉ xóa comment</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>xóa th&acirc;́t bại , bắt đăng nh&acirc;̣p vào web mới cho xóa</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
+	<testsuite name="Func05-Register" >
+		<node_order><![CDATA[5]]></node_order>
+		<details><![CDATA[<p>Ki&ecirc;̉m tra chức năng đăng kí</p>
+]]>
+		</details>
+<testcase internalid="28" name="Đăng kí tài khoản khi để tài khoản trống">
+	<node_order><![CDATA[1000]]></node_order>
+	<exec_order><![CDATA[10000]]></exec_order>
+	<externalid><![CDATA[7]]></externalid>
+	<fullexternalid><![CDATA[]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Đăng kí tài khoản khi đ&ecirc;̉ tài khoản tr&ocirc;́ng</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>tk: &quot; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>mk123456789z</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Đăng ký tài khoản th&acirc;́t bại xu&acirc;́t th&ocirc;ng báo l&ocirc;̃i tài khoản kh&ocirc;ng được đ&ecirc;̉ tr&ocirc;́ng</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="31" name="Đăng kí tài khoản với mật khẩu dưới 8 kí tự">
+	<node_order><![CDATA[1001]]></node_order>
+	<exec_order><![CDATA[10010]]></exec_order>
+	<externalid><![CDATA[8]]></externalid>
+	<fullexternalid><![CDATA[]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Đăng kí tài khoản với m&acirc;̣t kh&acirc;̉u dưới 8 kí tự</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>tk : admin &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>&nbsp;mk: 123456</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>kh&ocirc;ng đăng ký được , xu&acirc;́t th&ocirc;ng báo l&ocirc;̃i bắt nh&acirc;̣p tài khoản tr&ecirc;n 8 kí tự</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="34" name="Đăng kí tài khỏan khi có khoản cách">
+	<node_order><![CDATA[1002]]></node_order>
+	<exec_order><![CDATA[10020]]></exec_order>
+	<externalid><![CDATA[9]]></externalid>
+	<fullexternalid><![CDATA[]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Đăng kí tài khỏan khi có khoản cách</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>tk: admin admin &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>mk: 123456aA</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Đăng kí th&acirc;́t bại in th&ocirc;ng báo l&ocirc;̃i tài khoản kh&ocirc;ng đượu có d&acirc;́u cách</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
+	<testsuite name="Func06-Login" >
+		<node_order><![CDATA[6]]></node_order>
+		<details><![CDATA[<p>Kiẻm tra chức năng đăng nh&acirc;̣p</p>
+]]>
+		</details>
+<testcase internalid="37" name="Đăng nhập khi để tài khoản trống">
+	<node_order><![CDATA[1000]]></node_order>
+	<exec_order><![CDATA[10000]]></exec_order>
+	<externalid><![CDATA[10]]></externalid>
+	<fullexternalid><![CDATA[]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Đăng nh&acirc;̣p khi đ&ecirc;̉ tài khoản tr&ocirc;́ng</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>tk: &nbsp;</li>
+	<li>mk: 123456aA</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Đăng nh&acirc;̣p th&acirc;́t bại , in th&ocirc;ng báo l&ocirc;̃i, tk kh&ocirc;ng được đ&ecirc;̉ tr&ocirc;́ng</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="40" name="Đăng nhập để mật khẩu trống">
+	<node_order><![CDATA[1001]]></node_order>
+	<exec_order><![CDATA[10010]]></exec_order>
+	<externalid><![CDATA[11]]></externalid>
+	<fullexternalid><![CDATA[]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Đăng nh&acirc;̣p đ&ecirc;̉ m&acirc;̣t kh&acirc;̉u tr&ocirc;́ng&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>tk : admin &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>mk: &quot; &nbsp; &nbsp; &nbsp; &nbsp; &quot;&nbsp;</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Đăng nh&acirc;̣p th&acirc;́t bại , in th&ocirc;ng báo l&ocirc;̃i, mk kh&ocirc;ng được đ&ecirc;̉ tr&ocirc;́ng</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite></testsuites>
+
+	</testplan>
